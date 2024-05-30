@@ -1,6 +1,7 @@
 package top.youzhajun.notion;
 
 import cn.hutool.core.collection.CollUtil;
+import cn.hutool.core.collection.ListUtil;
 import cn.hutool.core.date.DateTime;
 import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.util.ObjUtil;
@@ -261,6 +262,7 @@ public class NotionApiUtils {
         PageProperty pageProperty = new PageProperty();
         pageProperty.setType(PropertyType.MultiSelect);
         List<DatabaseProperty.MultiSelect.Option> actors = new ArrayList<>();
+        actorList = ListUtil.sub(actorList, 0, 5);
         for (String actorName : actorList) {
             actors.add(new DatabaseProperty.MultiSelect.Option(null, actorName, null, null));
         }
