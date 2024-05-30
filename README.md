@@ -18,7 +18,7 @@
 
 # 如何使用
 
-前提条件：
+## 前提条件：
 
 - 注册 Github 账号
 - 注册 Notion
@@ -27,7 +27,7 @@
     <img src=./asset/tmdb-tip-01.png/>
 </div>
 
-使用步骤：
+## 使用步骤：
 
 1. 登录 Github 账号，fork 此项目： [notion-movie-faster](https://github.com/youzhajun/notion-movie-faster)
 
@@ -92,7 +92,14 @@
 
 [hutool](https://doc.hutool.cn/pages/index/)
 
-# 捐赠
+# 杂七杂八
 如果此项目对你有所帮助，请您点击 start 对作者表示鼓励，感谢！
+
+如有问题，欢迎提 issue 或联系作者。
+
+<div align="center">
+    <img src=./asset/wechat.jpg/>
+</div>
+
 
 
