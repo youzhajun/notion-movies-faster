@@ -29,7 +29,7 @@
 
 ## 使用步骤：
 
-1. 登录 Github 账号，fork 此项目： [notion-movie-faster](https://github.com/youzhajun/notion-movie-faster)
+1. 登录 Github 账号，fork 此项目： [notion-movie-faster](https://github.com/youzhajun/notion-movies-faster)
 
 <div align="center">
     <img src=./asset/github-fork-tip-01.png/>
