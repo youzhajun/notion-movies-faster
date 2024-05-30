@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: notion-movie-faster
+
+# tmdb key 配置
+#tmdb:
+#  apiKey: ${TMDB_KEY}
+
+
+# notion 配置
+notion:
+  # token
+#  token: ${NOTION_TOKEN}
+  # notion db id
+#  databaseId: ${NOTION_DATABASE_ID}
+  # movie table 列名映射
+  tableColumnsMapping:
+      title: title
+      year: year
+      cover: cover
+      summary: summary
+      category: category
+      tags: tags
+      actor: actor
+      type: type
+logging:
+  level:
+    top.youzhajun: debug
+# 日志配置
