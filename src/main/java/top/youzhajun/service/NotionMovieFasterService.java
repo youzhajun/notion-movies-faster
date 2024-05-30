@@ -38,7 +38,6 @@ public class NotionMovieFasterService {
         }
         long interval = timeInterval.interval();
         log.info("本次执行耗时：{} ", interval);
-        log.info("项目关闭，减少使用 action 免费时长 ");
     }
 
 }

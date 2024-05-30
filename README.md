@@ -22,7 +22,10 @@
 
 - 注册 Github 账号
 - 注册 Notion
-- 注册 Tmdb 账号，并申请 API Key
+- 注册 Tmdb 账号，并申请 API Key [TMDB API 页面](https://www.themoviedb.org/settings/api)
+<div align="center">
+    <img src=./asset/tmdb-tip-01.png/>
+</div>
 
 使用步骤：
 
