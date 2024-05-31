@@ -84,7 +84,7 @@ public class NotionApiUtils {
      */
     public void updateNotionPage(List<Page> pageList) throws TmdbException {
         NotionClient notionClient = new NotionClient(notionConfig.getNotionToken());
-        notionClient.setHttpClient(new OkHttp4Client(10000, 10000, 10000));
+        notionClient.setHttpClient(new OkHttp4Client(60000, 60000, 60000));
         for (Page page : pageList) {
             String pageCategory = getMovieCategory(page);
             HashMap<String, PageProperty> updateProperty = new HashMap<>();
@@ -236,7 +236,7 @@ public class NotionApiUtils {
         if (CollUtil.isEmpty(richTextList)) {
             PageProperty property = new PageProperty();
             property.setType(PropertyType.RichText);
-            property.setRichText(Arrays.asList(new PageProperty.RichText(RichTextType.Text, new PageProperty.RichText.Text(overview))));
+            property.setRichText(Arrays.asList(new PageProperty.RichText(RichTextType.Text, new PageProperty.RichText.Text(StrUtil.trim(overview)))));
             updateProperty.put(tableColumnsMappingConfiguration.getSummary(), property);
         }
     }
