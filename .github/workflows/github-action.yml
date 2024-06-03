@@ -7,7 +7,7 @@ on:
   #    types: [created, edited, deleted]
   workflow_dispatch:
   schedule:
-   - cron: '*/60 * * * *'
+   - cron: '0 0 0/1 * * ?'
 
 jobs:
   build:
